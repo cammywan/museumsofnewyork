@@ -2,7 +2,7 @@
 
 @supports (grid-area: auto){
  @media (min-width: 600px) {
-    .article.grid{
+    .grid{
     display: grid;
     align-items: center;
     grid-template-columns: 1fr;
@@ -25,13 +25,20 @@
     grid-template-areas: 
        "guggen"
         "guggentext"
-    "mettext"
         " met"
+        "mettext"
         "moma"
         "momatext"
+        "amnh"
         "amnhtext"
-        "amnh";
-  }     
+        ;
+  } 
+.guggentext, .mettext, .momatext, .amnhtext, .intro, .map, .testimony{
+        padding: 3% 5%;
+    
+     }
+     
+     
   }
 
 
@@ -412,3 +419,9 @@ color: white;
 
 }
 /* end large screen nav styling. */
+
+iframe{
+    display: block;
+    margin: auto;
+    padding-top: 5%;
+}
