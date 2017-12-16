@@ -216,6 +216,7 @@ img {width: auto;
         text-decoration: none;
         font-family: 'News Cycle', sans-serif;
     color: black;
+    border-bottom: solid dimgrey 2px;
     }   
 .website a:hover{
     color: #BBDDF5;
@@ -385,7 +386,7 @@ color: white;
     }
 /* This changes the styling on larger screens. Adjust the min-width if you want the nav to change at a different screen width */
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 950px) {
     .header {
         padding-left: 1em;
         padding-right: 1em;
@@ -425,3 +426,4 @@ iframe{
     margin: auto;
     padding-top: 5%;
 }
+
